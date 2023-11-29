@@ -6,8 +6,6 @@ import { Container } from "semantic-ui-react";
 
 function PokemonPage({pokemons, search, setSearch, handleNewPokemon}) {
 
-
-
   return (
     <Container>
       <h1>Pokemon Searcher</h1>

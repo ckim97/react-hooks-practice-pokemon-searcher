@@ -7,7 +7,7 @@ function PokemonForm({handleNewPokemon}) {
     e.preventDefault()
     const newPokemon = {
       name : e.target.name.value,
-      hp : e.target.hp.value,
+      hp : parseFloat(e.target.hp.value),
       sprites : {
         front : e.target.frontUrl.value,
         back : e.target.backUrl.value
